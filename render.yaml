@@ -1,0 +1,4 @@
+name: front-end
+type: static
+buildCommand: npm run build
+publishDir: dist
