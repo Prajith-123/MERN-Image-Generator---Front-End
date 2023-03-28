@@ -26,7 +26,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://open-ai-dall-e.onrender.com7200/api/v1/post', {
+      const response = await fetch('https://open-ai-dall-e.onrender.com/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
